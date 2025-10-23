@@ -1,5 +1,5 @@
-name: keyviz
-description: visualize your keypress and mouse actions
+name: keydex
+description: Advanced keyboard and mouse visualization tool
 
 publish_to: 'none'
 
@@ -15,7 +15,7 @@ dependencies:
   # cross-platform HID (Human Input Device) listener
   hid_listener:
     git:
-      url: https://github.com/mulaRahul/hid_listener.git
+      url: https://github.com/SplashCodeDex/hid_listener.git
       ref: main
 
   window_size:

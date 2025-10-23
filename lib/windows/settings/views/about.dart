@@ -153,7 +153,7 @@ class AboutView extends StatelessWidget {
                       "I'm an instructor, and I teach courses online. \n\n"
                       "When recording my screen, I've always felt the need "
                       "to show my keystrokes to the audience. That's when I "
-                      "decided to develop keyviz, and share it with others "
+                      "decided to develop KeyDeX, and share it with others "
                       "to help people like me.",
                       style: context.textTheme.bodyLarge,
                     ),
@@ -180,9 +180,9 @@ class AboutView extends StatelessWidget {
                   ),
                   const VerySmallColumnGap(),
                   Text(
-                    "As keyviz is freeware, the only way I can earn is "
+                    "As KeyDeX is freeware, the only way I can earn is "
                     "through your generous donations. It helps free my time "
-                    "and work more on keyviz.",
+                    "and work more on KeyDeX.",
                     style: context.textTheme.bodyLarge,
                   ),
                   const Spacer(),
@@ -190,14 +190,14 @@ class AboutView extends StatelessWidget {
                     children: [
                       IconButton(
                         onPressed: () => launchUrlString(
-                          "https://github.com/sponsors/mulaRahul",
+                          "https://github.com/sponsors/SplashCodeDex",
                         ),
                         tooltip: "Github Sponsors",
                         icon: const SvgIcon(icon: "assets/img/github-logo.svg"),
                       ),
                       IconButton(
                         onPressed: () => launchUrlString(
-                          "https://opencollective.com/keyviz",
+                          "https://opencollective.com/keydex",
                         ),
                         tooltip: "Open Collective",
                         icon: SvgPicture.asset(

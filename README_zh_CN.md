@@ -1,4 +1,4 @@
-![keyviz-2.0](previews/banner.svg)
+![KeyDeX](previews/banner.svg)
 
 Keyviz，一个免费开源的实时键鼠输入可视化软件，让观众了解你在演示的过程中按下了什么快捷键
 
@@ -27,7 +27,7 @@ Keyviz也可以显示鼠标、键盘+鼠标的操作，比如 <kbd>Cmd</kbd> + <
 
 # 📥 安装
 
-在 [Github Releases](https://github.com/mulaRahul/keyviz/releases) 下载最新版，根据操作系统安装/解压即用，或者通过下面的包管理器安装
+在 [Github Releases](https://github.com/SplashCodeDex/keydex/releases) 下载最新版，根据操作系统安装/解压即用，或者通过下面的包管理器安装
 
 <details>
   <summary>🥄 Scoop</summary>
@@ -43,7 +43,7 @@ Keyviz也可以显示鼠标、键盘+鼠标的操作，比如 <kbd>Cmd</kbd> + <
   <summary>🪟 Winget</summary>
     
   ```bash
-  winget install mulaRahul.Keyviz
+  winget install SplashCodeDex.KeyDeX
   ```
 
 </details>
@@ -67,7 +67,7 @@ Keyviz也可以显示鼠标、键盘+鼠标的操作，比如 <kbd>Cmd</kbd> + <
 
 ```bash
 mkdir keyviz
-git clone https://github.com/mulaRahul/keyviz.git .
+git clone https://github.com/SplashCodeDex/keydex.git .
 ```
 
 cd到项目文件夹内 开始编译
